@@ -1,7 +1,6 @@
 ---
 - name: Upgrade ansible venv on tower nodes
   hosts: tower
-  #become: yes
 
   vars:
     pypi_list:
